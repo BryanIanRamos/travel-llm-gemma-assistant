@@ -231,3 +231,81 @@ VECTORS = [
         "content": "Cool climate, pine trees, and viewpoints.",
     },
 ]
+
+REVIEWS = [
+    # Boracay reviews
+    {
+        "area": "Boracay",
+        "user_name": "Maria",
+        "rating": 5,
+        "comment": "Absolutely stunning beaches! Perfect for a romantic getaway.",
+    },
+    {
+        "area": "Boracay",
+        "user_name": "Juan",
+        "rating": 4,
+        "comment": "Great experience overall, a bit crowded during peak season.",
+    },
+    # Siargao reviews
+    {
+        "area": "Siargao",
+        "user_name": "Alex",
+        "rating": 5,
+        "comment": "Best surfing destination I've been to. Highly recommend!",
+    },
+    {
+        "area": "Siargao",
+        "user_name": "Sarah",
+        "rating": 4,
+        "comment": "Sugba Lagoon is beautiful. Food options could be better.",
+    },
+    # Banaue Rice Terraces reviews
+    {
+        "area": "Banaue Rice Terraces",
+        "user_name": "David",
+        "rating": 5,
+        "comment": "Breathtaking views of the terraces. Worth the trek!",
+    },
+    # Puerto Princesa Underground River reviews
+    {
+        "area": "Puerto Princesa Underground River",
+        "user_name": "Lisa",
+        "rating": 5,
+        "comment": "One of the most incredible natural wonders I've seen.",
+    },
+    # Cebu City reviews
+    {
+        "area": "Cebu City",
+        "user_name": "Carlos",
+        "rating": 4,
+        "comment": "Great food and friendly locals. Urban feel with nature nearby.",
+    },
+    # Baguio reviews
+    {
+        "area": "Baguio",
+        "user_name": "Emma",
+        "rating": 5,
+        "comment": "Perfect escape from the heat! Cool weather and fresh air.",
+    },
+]
+
+VISITS = [
+    # Boracay visits
+    {"area": "Boracay", "user_id": 101, "source": "google_search"},
+    {"area": "Boracay", "user_id": 102, "source": "facebook"},
+    {"area": "Boracay", "user_id": 103, "source": "instagram"},
+    # Siargao visits
+    {"area": "Siargao", "user_id": 104, "source": "tiktok"},
+    {"area": "Siargao", "user_id": 105, "source": "google_search"},
+    # Banaue Rice Terraces visits
+    {"area": "Banaue Rice Terraces", "user_id": 106, "source": "travel_blog"},
+    {"area": "Banaue Rice Terraces", "user_id": 107, "source": "facebook"},
+    # Puerto Princesa Underground River visits
+    {"area": "Puerto Princesa Underground River", "user_id": 108, "source": "google_search"},
+    # Cebu City visits
+    {"area": "Cebu City", "user_id": 109, "source": "instagram"},
+    {"area": "Cebu City", "user_id": 110, "source": "twitter"},
+    # Baguio visits
+    {"area": "Baguio", "user_id": 111, "source": "google_search"},
+    {"area": "Baguio", "user_id": 112, "source": "direct"},
+]
